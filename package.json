@@ -1,0 +1,32 @@
+{
+  "name": "a-cli-parser",
+  "version": "0.0.0",
+  "main": "lib/main",
+  "dependencies": {
+    "mixto": "",
+    "lodash.merge": "",
+    "a-event-emitter": "",
+    "a-event-format": "",
+    "a-cli-type-inference": ""
+  },
+  "devDependencies": {
+    "kosher": ""
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --compilers coffee:coffee-script/register ./spec"
+  },
+  "description": "A Cli Parser",
+  "keywords": [
+    "a",
+    "cli",
+    "parser"
+  ],
+  "homepage": "https://github.com/joaoafrmartins/a-cli-parser",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaoafrmartins/a-cli-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joaoafrmartins/a-cli-parser/issues"
+  }
+}
